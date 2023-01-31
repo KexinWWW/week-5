@@ -56,7 +56,7 @@ all_salespeople = Salesperson.all
 for salesperson in all_salespeople
     first_name = salesperson["first_name"]
     last_name = salesperson["last_name"]
-    puts "#{first_name}, #{last_name}"
+    puts "#{first_name} #{last_name}"
 end
 #没写完tho
 
